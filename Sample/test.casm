@@ -1,0 +1,48 @@
+Function: f/2
+    Function: g/2
+    Constants: None, 1
+    Locals: x, y
+    Globals: f
+    BEGIN
+              LOAD_FAST                      0
+              LOAD_CONST                     1
+              COMPARE_OP                     0
+              POP_JUMP_IF_FALSE        label00
+              LOAD_FAST                      1
+              RETURN_VALUE             
+    label00:  LOAD_GLOBAL                    0
+              LOAD_FAST                      1
+              LOAD_CONST                     1
+              BINARY_SUBTRACT          
+              LOAD_FAST                      0
+              CALL_FUNCTION                  2
+              RETURN_VALUE             
+              LOAD_CONST                     0
+              RETURN_VALUE             
+    END
+Constants: None, code(g)
+Locals: x, y, g
+BEGIN
+          LOAD_CONST                     1
+          MAKE_FUNCTION                  0
+          STORE_FAST                     2
+          LOAD_FAST                      2
+          LOAD_FAST                      0
+          LOAD_FAST                      1
+          CALL_FUNCTION                  2
+          RETURN_VALUE             
+END
+Function: main/0
+Constants: None, 5, 12
+Globals: print, f
+BEGIN
+          LOAD_GLOBAL                    0
+          LOAD_GLOBAL                    1
+          LOAD_CONST                     1
+          LOAD_CONST                     2
+          CALL_FUNCTION                  2
+          CALL_FUNCTION                  1
+          POP_TOP                  
+          LOAD_CONST                     0
+          RETURN_VALUE             
+END

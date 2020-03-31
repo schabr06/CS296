@@ -1,0 +1,118 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+%Preamble
+
+\title{My First \LaTeX{} Document}
+\author{Brent Schaeffer}
+\date{\today}
+
+%Body
+\begin{document}
+\maketitle
+
+We have not added a title, author and date to our first \LaTeX{} document!
+First document. This is a simple example, with no
+extra parameters or packages included.
+
+Some of the \textbf{greatest} athletes are the best people.
+
+One of my favorite books is \textit{Angels and Deamons} by Dan Brown
+
+To add stress to a word people my underline something like \underline{this}.
+
+Some of the greatest \emph{discoveries} in science were made by accident.
+
+\textit{Some of the greatest \emph{disoveries} in science were made by accident.}
+
+\textbf{Some of the greatest \emph{discoveries} in science were made by mistake}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{blonde}
+    \caption{Blonde Brent}
+    \label{fig:head1}
+\end{figure}
+
+As you can see in the figure \ref{fig:head1}, this is a picture when Brent
+had blonde hair. Also, on page \pageref{fig:head1} is the same example.
+
+\begin{itemize}
+    \item The individual entries are indicated with a black dot, a so-called bullet.
+    \item The text in the entries may be of any length
+\end{itemize}
+
+\begin{enumerate}
+    \item This is the first entry in the list
+    \item The list numbers increase with each entry we add
+\end{enumerate}
+
+In physics, the mass-engery equivalence is stated by the equation
+$E=mc^2$, discovered in 1905 by Albert Einstein.
+
+The mass-energy equivalence is described by the famous equation
+\[ E=mc^2 \]
+discovered in 1905 by Albert Einstein.
+In natural units ($c = 1$), the formula expresses the identity
+\begin{equation}
+    E=m
+\end{equation}
+
+Subscripts in math mode are written as $a_b$ and superscripts are written as $a^b$. These can be combined an nested to write expressions such as
+
+\[ T^{i_1 i_2 \dots i_p}_{j_1 j_2 \dots j_q} = T(x^{i_1},\dots,x^{i_p},e_{j_1},\dots,e_{j_q}) \]
+ 
+We write integrals using $\int$ and fractions using $\frac{a}{b}$. Limits are placed on integrals using superscripts and subscripts:
+
+\[ \int_0^1 \frac{dx}{e^x} =  \frac{e-1}{e} \]
+
+Lower case Greek letters are written as $\omega$ $\delta$ etc. while upper case Greek letters are written as $\Omega$ $\Delta$.
+
+Mathematical operators are prefixed with a backslash as $\sin(\beta)$, $\cos(\alpha)$, $\log(x)$ etc.
+
+\begin{abstract}
+    This is a simple paragraph at the beginning of the document.
+    A brief introduction to the main subject.
+\end{abstract}
+
+Now the we have written our abstract, we can begin writing our first paragraph.
+
+This line will start a second paragraph.
+
+% \chapter{First Chapter}
+
+\section{Introduction}
+
+This is the first section.
+
+Lorem  ipsum  dolor  sit  amet,  consectetuer  adipiscing  
+elit.   Etiam  lobortisfacilisis sem.  Nullam nec mi et 
+neque pharetra sollicitudin.  Praesent imperdietmi nec ante. 
+Donec ullamcorper, felis non sodales...
+
+\section{Second Section}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+Etiam lobortis facilisissem.  Nullam nec mi et neque pharetra 
+sollicitudin.  Praesent imperdiet mi necante...
+
+\subsection{First Subsection}
+Praesent imperdietmi nec ante. Donec ullamcorper, felis non sodales...
+
+\section*{Unnumbered Section}
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+Etiam lobortis facilisissem
+
+\begin{center}
+\begin{tabular}{ | c | c | c |}
+    \hline
+    Cell 1 & Cell 2 & Cell 3 \\
+    Cell 4 & Cell 5 & Cell 6 \\
+    Cell 7 & Cell 8 & Cell 9 \\
+    \hline
+\end{tabular}  
+\end{center}
+
+\end{document}

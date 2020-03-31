@@ -1,0 +1,27 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Lee(2014)]{leepl}
+K.~D. Lee.
+\newblock \emph{Foundations of Programming Languages}.
+\newblock Springer, 2014.
+\newblock ISBN 978-3-319-13313-3.
+
+\bibitem[Lee(2015)]{Lee15}
+K.~D. Lee.
+\newblock A framework for teaching programming languages.
+\newblock In \emph{SIGCSE '15: Proceedings of the 46th ACM Technical Symposium
+  on Computer Science Education}, New York, NY, USA, 2015. ACM.
+\newblock ISBN 978-1-4503-2966-8.
+
+\bibitem[MacQueen(2000)]{mltypes}
+D.~MacQueen.
+\newblock Types and type checking: A discussion of the value restriction of sml
+  '97 on the sml/nj website.
+\newblock \url{http://www.smlnj.org/doc/Conversion/types.html}, 2000.
+
+\end{thebibliography}
