@@ -16,5 +16,130 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Angularv42:online}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.codeinwp.com/blog/angular-vs-vue-vs-react/}}
+      \field{note}{(Accessed on 04/13/2020)}
+      \field{title}{Angular vs React vs Vue: Which Framework to Choose in 2020}
+    \endentry
+    \entry{JSXWhatI92:online}{misc}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.reactenlightenment.com/react-jsx/5.1.html}}
+      \field{note}{(Accessed on 04/10/2020)}
+      \field{title}{JSX - What Is a JSX? \& Introduction to Advanced}
+    \endentry
+    \entry{Interact81:online}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=630722d81f7508feef4654a69ce383f6}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{630722d81f7508feef4654a69ce383f6}
+      \strng{fullhash}{630722d81f7508feef4654a69ce383f6}
+      \strng{bibnamehash}{630722d81f7508feef4654a69ce383f6}
+      \strng{authorbibnamehash}{630722d81f7508feef4654a69ce383f6}
+      \strng{authornamehash}{630722d81f7508feef4654a69ce383f6}
+      \strng{authorfullhash}{630722d81f7508feef4654a69ce383f6}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://rawgit.com/krausest/js-framework-benchmark/master/webdriver-ts-results/table.html}}
+      \field{month}{9}
+      \field{note}{(Accessed on 04/10/2020)}
+      \field{title}{Interactive Results}
+      \field{year}{2018}
+    \endentry
+    \entry{saks2019javascript}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d3863abffbbf176fdbb17c95ae880736}{%
+           family={Saks},
+           familyi={S\bibinitperiod},
+           given={Elar},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3863abffbbf176fdbb17c95ae880736}
+      \strng{fullhash}{d3863abffbbf176fdbb17c95ae880736}
+      \strng{bibnamehash}{d3863abffbbf176fdbb17c95ae880736}
+      \strng{authorbibnamehash}{d3863abffbbf176fdbb17c95ae880736}
+      \strng{authornamehash}{d3863abffbbf176fdbb17c95ae880736}
+      \strng{authorfullhash}{d3863abffbbf176fdbb17c95ae880736}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.theseus.fi/bitstream/handle/10024/261970/Thesis-Elar-Saks.pdf?sequence=2}}
+      \field{note}{(Accessed on 04/06/2020)}
+      \field{title}{JavaScript Frameworks: Angular vs React vs Vue.}
+      \field{year}{2019}
+    \endentry
+    \entry{ReactvsA7:online}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=113a1d387db8c8b5be632defc24e26b7}{%
+           family={Schwarzmüller},
+           familyi={S\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{113a1d387db8c8b5be632defc24e26b7}
+      \strng{fullhash}{113a1d387db8c8b5be632defc24e26b7}
+      \strng{bibnamehash}{113a1d387db8c8b5be632defc24e26b7}
+      \strng{authorbibnamehash}{113a1d387db8c8b5be632defc24e26b7}
+      \strng{authornamehash}{113a1d387db8c8b5be632defc24e26b7}
+      \strng{authorfullhash}{113a1d387db8c8b5be632defc24e26b7}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{(Accessed on 04/06/2020)}
+      \field{title}{React vs. Angular vs. Vue: Which is the Best JavaScript Framework?}
+      \field{year}{2019}
+    \endentry
+    \entry{Vuejs0:online}{misc}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://vuejs.org/}}
+      \field{note}{(Accessed on 04/6/2020)}
+      \field{title}{Vue.js}
+    \endentry
+    \entry{wohlgethan2018supportingweb}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=4ab288db1235f64971c7d8dbeab3b0ea}{%
+           family={Wohlgethan},
+           familyi={W\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Hochschule f{ü}r Angewandte Wissenschaften Hamburg}%
+      }
+      \strng{namehash}{4ab288db1235f64971c7d8dbeab3b0ea}
+      \strng{fullhash}{4ab288db1235f64971c7d8dbeab3b0ea}
+      \strng{bibnamehash}{4ab288db1235f64971c7d8dbeab3b0ea}
+      \strng{authorbibnamehash}{4ab288db1235f64971c7d8dbeab3b0ea}
+      \strng{authornamehash}{4ab288db1235f64971c7d8dbeab3b0ea}
+      \strng{authorfullhash}{4ab288db1235f64971c7d8dbeab3b0ea}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(Accessed on 04/06/2020)}
+      \field{title}{SupportingWeb Development Decisions by Comparing Three Major JavaScript Frameworks: Angular, React and Vue.js}
+      \field{type}{phdthesis}
+      \field{year}{2018}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
